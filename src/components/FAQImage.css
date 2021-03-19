@@ -3,6 +3,11 @@
   flex: 1;
   height: 100%;
   margin: auto;
+
+  background: url('../bg-pattern-desktop.svg') no-repeat;
+  background-size: contain;
+  background-position: -100px, 0;
+
 }
 
 .woman-image-container {
