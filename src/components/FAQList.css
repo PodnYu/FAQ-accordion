@@ -3,9 +3,10 @@
   height: 100%;
   box-sizing: border-box;
   padding: 40px 60px 20px 20px;
+  overflow: hidden;
 }
 
 .FAQList {
   height: 85%;
-  overflow-y: hidden;
+  overflow: hidden;
 }

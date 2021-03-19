@@ -6,4 +6,12 @@
   background-color: white;
   border-radius: 30px;
   box-shadow: 8px 12px 30px 1px rgba(0, 0, 0, .2);
+  min-width: 950px;
+  min-height: 512px;
+  margin: 0 auto;
+}
+
+.cube-placeholder {
+  position: relative;
+  max-width: 960px;
 }
