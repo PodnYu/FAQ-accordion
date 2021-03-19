@@ -1,0 +1,5 @@
+.image-container {
+  flex: 1;
+  height: 100%;
+  border: 1px solid black;
+}
