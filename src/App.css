@@ -1,0 +1,14 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 100%);
+}
+
+@keyframes box-animation {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(5px); }
+  100% { transform: translateY(0px); }
+}

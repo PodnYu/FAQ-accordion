@@ -1,0 +1,1 @@
+## React practice from [here](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam).

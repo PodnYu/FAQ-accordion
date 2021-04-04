@@ -1,0 +1,35 @@
+.image-container {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  margin: auto;
+
+  background: url('../bg-pattern-desktop.svg') no-repeat;
+  background-size: contain;
+  background-position: -100px, 0;
+
+}
+
+.woman-image-container {
+  position: relative;
+  top: 70px;
+  overflow: hidden;
+}
+
+.woman-image {
+  position: relative;
+  left: -65px; 
+}
+
+.cube-placeholder {
+  position: relative;
+  max-width: 960px;
+  border: 1px solid black;
+}
+
+.box-image {
+  position: absolute;
+  left: -87px;
+  top: 180px;
+  animation: box-animation 3s infinite ease-in-out;
+}

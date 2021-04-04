@@ -1,0 +1,40 @@
+.FAQItem {
+  padding: 20px 0;
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+  overflow-x: hidden;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.arrow {
+  padding: 0px 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+.arrow-up {
+  transform: rotateZ(180deg);
+}
+
+.question {
+  cursor: pointer;
+}
+
+.question-active {
+  font-weight: bold;
+}
+
+.answer {
+  color: hsl(240, 6%, 50%);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.answer p {
+  margin: 10px 0 0 0;
+}
